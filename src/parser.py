@@ -1,4 +1,4 @@
-# src/parser.py — PDF extraction using PyMuPDF
+# src/parser.py: PDF extraction using PyMuPDF
 
 import fitz  # PyMuPDF
 from pathlib import Path

@@ -1,0 +1,107 @@
+[
+  {
+    "model": "llama3.2:3b",
+    "document": "microsoft.pdf",
+    "latency_seconds": 6.44,
+    "json_valid": true,
+    "metadata": {
+      "filename": "microsoft.pdf",
+      "document_type": "annual_report",
+      "title": "MICROSOFT CORPORATION ANNUAL REPORT (FORM 10-K) FOR THE FISCAL YEAR ENDED JUNE 30, 2025",
+      "summary": "This is an annual report filed by Microsoft Corporation with the Securities and Exchange Commission, providing financial information for the fiscal year ended June 30, 2025.",
+      "language": "en",
+      "key_entities": [
+        "Microsoft Corporation",
+        "Securities and Exchange Commission"
+      ],
+      "key_topics": [
+        "Financial reporting",
+        "Corporate governance",
+        "Regulatory compliance"
+      ],
+      "regulatory_references": [
+        "Section 13 of the Securities Exchange Act of 1934",
+        "Section 15(d) of the Securities Exchange Act of 1934"
+      ],
+      "confidence_score": 0.95
+    }
+  },
+  {
+    "model": "phi3:mini",
+    "document": "microsoft.pdf",
+    "latency_seconds": 17.22,
+    "json_valid": true,
+    "metadata": {
+      "filename": "microsoft.pdf",
+      "document_type": "annual_report",
+      "title": "Microsoft Corporation Annual Report for Fiscal Year Ended June 30, 2025",
+      "summary": "The document is Microsoft's annual report filed with the SEC. It includes financial statements and management discussion of operations.",
+      "language": "en",
+      "key_entities": [
+        "United States Securities and Exchange Commission",
+        "Microsoft Corporation"
+      ],
+      "key_topics": [
+        "annual financial reporting",
+        "corporate governance",
+        "SEC filings"
+      ],
+      "regulatory_references": [
+        "Securities Exchange Act of 1934",
+        "Sarbanes-Oxley Act"
+      ],
+      "confidence_score": 0.85
+    }
+  },
+  {
+    "model": "llama3.2:3b",
+    "document": "tesla.pdf",
+    "latency_seconds": 4.64,
+    "json_valid": true,
+    "metadata": {
+      "filename": "tesla.pdf",
+      "document_type": "annual_report",
+      "title": "Tesla, Inc. - Form 10-Q for the Quarter Ended September 30, 2025",
+      "summary": "This quarterly report provides financial information and management's discussion of Tesla's financial condition and results of operations.",
+      "language": "en",
+      "key_entities": [
+        "Tesla, Inc.",
+        "Securities and Exchange Commission"
+      ],
+      "key_topics": [
+        "Financial Information",
+        "Management's Discussion and Analysis",
+        "Market Risk"
+      ],
+      "regulatory_references": [
+        "Section 13 or 15(d) of the Securities Exchange Act of 1934"
+      ],
+      "confidence_score": 0.9
+    }
+  },
+  {
+    "model": "phi3:mini",
+    "document": "tesla.pdf",
+    "latency_seconds": 7.03,
+    "json_valid": true,
+    "metadata": {
+      "filename": "tesla.pdf",
+      "document_type": "annual_report",
+      "title": "Tesla Form 10-Q for Quarter Ended September 30, 2025",
+      "summary": "This document is a quarterly report filed by Tesla Inc. with the SEC detailing financial performance and market risks as of September 30, 2025.",
+      "language": "en",
+      "key_entities": [
+        "Tesla, Inc."
+      ],
+      "key_topics": [
+        "financial statements",
+        "market risk disclosures"
+      ],
+      "regulatory_references": [
+        "Securities Exchange Act of 1934",
+        "Rule 405 of Regulation S-T"
+      ],
+      "confidence_score": 0.85
+    }
+  }
+]

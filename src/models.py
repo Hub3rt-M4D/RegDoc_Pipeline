@@ -12,8 +12,8 @@ class ParsedDocument(BaseModel):
     filename: str
     total_pages: int
     pages: list[ParsedPage]
-    raw_text: str  # full document text concatenated
-    pdf_metadata: dict  # title, author, creation date from PDF metadata
+    raw_text: str               # full document text concatenated
+    pdf_metadata: dict          # title, author, creation date from PDF metadata
     parsed_at: datetime
 
 class DocumentMetadata(BaseModel):
@@ -32,6 +32,6 @@ class BenchmarkResult(BaseModel):
     model_name: str
     document: str
     latency_seconds: float
-    metadata: DocumentMetadata
+    metadata: DocumentMetadata | None
     json_valid: bool           # did the LLM return valid JSON?
     raw_response: str          # for debugging

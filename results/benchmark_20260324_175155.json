@@ -1,0 +1,195 @@
+[
+  {
+    "model": "llama3.2:3b",
+    "document": "dell.pdf",
+    "latency_seconds": 3.82,
+    "json_valid": true,
+    "metadata": {
+      "filename": "dell.pdf",
+      "document_type": "form",
+      "title": "Form 10-K for Dell Technologies INC filed 03/25/2025",
+      "summary": "Annual report of Dell Technologies Inc. filed with the SEC on March 25, 2025, including financial statements and management's assessment of internal control over financial reporting.",
+      "language": "en",
+      "key_entities": [
+        "Dell Technologies Inc.",
+        "SEC",
+        "U.S. Securities and Exchange Commission"
+      ],
+      "key_topics": [
+        "Form 10-K",
+        "Financial statements",
+        "Internal control over financial reporting"
+      ],
+      "regulatory_references": [
+        "Section 13 of the Securities Exchange Act of 1934",
+        "Section 15(d) of the Securities Exchange Act of 1934"
+      ],
+      "confidence_score": 0.9
+    }
+  },
+  {
+    "model": "phi3:mini",
+    "document": "dell.pdf",
+    "latency_seconds": 6.5,
+    "json_valid": false,
+    "metadata": null
+  },
+  {
+    "model": "llama3.2:3b",
+    "document": "ey.pdf",
+    "latency_seconds": 3.22,
+    "json_valid": true,
+    "metadata": {
+      "filename": "ey.pdf",
+      "document_type": "annual_report",
+      "title": "2025 SEC annual reports \u2014 Form 10 K",
+      "summary": "This document provides guidance on preparing Form 10-K, a key financial reporting series for publicly traded companies in the United States.",
+      "language": "en",
+      "key_entities": [
+        "SEC",
+        "EY"
+      ],
+      "key_topics": [
+        "Form 10-K",
+        "Financial Reporting Series",
+        "XBRL"
+      ],
+      "regulatory_references": [
+        "SEC regulations"
+      ],
+      "confidence_score": 0.85
+    }
+  },
+  {
+    "model": "phi3:mini",
+    "document": "ey.pdf",
+    "latency_seconds": 6.35,
+    "json_valid": true,
+    "metadata": {
+      "filename": "ey.pdf",
+      "document_type": "annual_report",
+      "title": "2025 SEC annual reports \u2014 Form 10-K | i",
+      "summary": "The document provides a comprehensive overview of the rules and requirements for filing Form 10-K with the U.S. Securities and Exchange Commission (SEC) in 2025, including details on electronic submission via EDGAR.",
+      "language": "en",
+      "key_entities": [
+        "EY"
+      ],
+      "key_topics": [
+        "Form 10-K filing requirements",
+        "electronic filing using EDGAR",
+        "XBRL (eXtensible Business Reporting Language)"
+      ],
+      "regulatory_references": [
+        "SEC Form 10-K"
+      ],
+      "confidence_score": 0.95
+    }
+  },
+  {
+    "model": "llama3.2:3b",
+    "document": "microsoft.pdf",
+    "latency_seconds": 4.74,
+    "json_valid": true,
+    "metadata": {
+      "filename": "microsoft.pdf",
+      "document_type": "annual_report",
+      "title": "MICROSOFT CORPORATION 10-K: Annual Report (Form 10-K) for the Fiscal Year Ended June 30, 2025",
+      "summary": "Microsoft Corporation's annual report filed with the Securities and Exchange Commission, providing financial information and corporate governance details.",
+      "language": "en",
+      "key_entities": [
+        "SECURITIES AND EXCHANGE COMMISSION",
+        "MICROSOFT CORPORATION"
+      ],
+      "key_topics": [
+        "Financial Reporting",
+        "Corporate Governance",
+        "Regulatory Compliance"
+      ],
+      "regulatory_references": [
+        "Section 13 of the Securities Exchange Act of 1934",
+        "Section 15(d) of the Securities Exchange Act of 1934"
+      ],
+      "confidence_score": 0.95
+    }
+  },
+  {
+    "model": "phi3:mini",
+    "document": "microsoft.pdf",
+    "latency_seconds": 7.47,
+    "json_valid": true,
+    "metadata": {
+      "filename": "microsoft.pdf",
+      "document_type": "annual_report",
+      "title": "Microsoft Corporation Form 10-K for Fiscal Year Ended June 30, 2025",
+      "summary": "The Microsoft annual report details the company's financial performance and includes a comprehensive review of its business operations. The document also discusses regulatory compliance.",
+      "language": "en",
+      "key_entities": [
+        "United States Securities and Exchange Commission",
+        "Microsoft Corporation"
+      ],
+      "key_topics": [
+        "annual financial performance",
+        "business operations review",
+        "regulatory compliance"
+      ],
+      "regulatory_references": [
+        "Securities Exchange Act of 1934",
+        "Sarbanes-Oxley Act"
+      ],
+      "confidence_score": 0.85
+    }
+  },
+  {
+    "model": "llama3.2:3b",
+    "document": "tesla.pdf",
+    "latency_seconds": 4.4,
+    "json_valid": true,
+    "metadata": {
+      "filename": "tesla.pdf",
+      "document_type": "annual_report",
+      "title": "Tesla, Inc. (Exact name of registrant as specified in its charter)",
+      "summary": "Quarterly Report on Form 10-Q for the quarter ended September 30, 2025, containing financial statements and management's discussion and analysis.",
+      "language": "en",
+      "key_entities": [
+        "Tesla, Inc.",
+        "Securities and Exchange Commission"
+      ],
+      "key_topics": [
+        "Financial information",
+        "Management's discussion and analysis",
+        "Market risk"
+      ],
+      "regulatory_references": [
+        "Section 13 or 15(d) of the Securities Exchange Act of 1934"
+      ],
+      "confidence_score": 0.9
+    }
+  },
+  {
+    "model": "phi3:mini",
+    "document": "tesla.pdf",
+    "latency_seconds": 7.83,
+    "json_valid": true,
+    "metadata": {
+      "filename": "tesla.pdf",
+      "document_type": "annual_report",
+      "title": "Tesla Form 10-Q for QUARTER ENDED SEPTEMBER 30, 2025",
+      "summary": "This document is a quarterly report filed by Tesla Inc. with the U.S. Securities and Exchange Commission (SEC), detailing financial performance and market risks for the period ending September 30, 2025.",
+      "language": "en",
+      "key_entities": [
+        "Tesla, Inc.",
+        "United States Securities and Exchange Commission"
+      ],
+      "key_topics": [
+        "quarterly financial performance",
+        "market risks",
+        "SEC filing requirements"
+      ],
+      "regulatory_references": [
+        "Securities Exchange Act of 1934",
+        "Form 10-Q reporting requirement"
+      ],
+      "confidence_score": 0.85
+    }
+  }
+]

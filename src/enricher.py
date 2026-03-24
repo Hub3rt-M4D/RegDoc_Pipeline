@@ -32,7 +32,7 @@ def enrich_document(
     Send parsed document text to a local LLM and get structured metadata.
     Returns (metadata, debug_info) tuple.
     """
-    # Truncate to fit context window — real systems use chunking
+    # Truncate to fit context window
     text_sample = parsed.raw_text[:max_context_chars]
 
     user_prompt = f"""Analyze the following document and extract metadata.
@@ -106,7 +106,7 @@ def _parse_llm_json(raw: str, filename: str) -> DocumentMetadata | None:
             pass
 
 
-# Try fixing truncated JSON (missing closing brace)
+# Fixing truncated JSON 
     cleaned = raw.strip()
     if not cleaned.endswith("}"):
         cleaned += "}"
